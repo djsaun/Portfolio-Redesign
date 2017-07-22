@@ -2,16 +2,8 @@
 <html lang="en">
 <head>
   {{ partial "meta.html" . }}
-  {{ with .Site.Params.googlefonts }}
-  <link href="{{ . }}" rel="stylesheet">
-  {{ else }}
-  <link href="//fonts.googleapis.com/css?family=Noto+Sans:400,700|Montserrat" rel="stylesheet">
-  {{ end }}
 
   <link rel="stylesheet" href="{{ "css/dist/style.css" | relURL }}">
-  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/solarized_dark.min.css">
   <title>{{ block "title" . }}{{ end }}{{ .Site.Title }}</title>
   {{ block "meta" . }}{{ end }}
   <style>
@@ -28,7 +20,14 @@
   {{ template "_internal/google_analytics.html" . }}
   {{ end }}
 
-  <h1>Test</h1>
-
-  <i class="fa fa-user"></i>
+  <header>
+    <div class="grid">
+      <div class="logo grid-cell w30">
+        <a href="/">David Saunders</a>
+      </div>
+      <div class="grid-cell">
+        {{ partial "nav.html" . }}
+      </div>
+    </div>
+  </header>
 <body>

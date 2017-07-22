@@ -1,15 +1,12 @@
 black:
   base: '#000000'
-gray:
-  base: '#505153'
-  light: '#636466'
-  dark: '#767879'
-  darker: '#bcbec0'
 green:
-  base: '#005d5d'
-red:
-  base: '#ff0000'
-teal:
-  base: '#00aca6'
+  base: '#436846'
+  forest: '#4E5136'
+  light: '#97AF99'
+gray:
+  base: '#3A3A3A'
+tan:
+  base: '#D19C72'
 white:
   base: '#ffffff'

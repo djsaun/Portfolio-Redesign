@@ -1,11 +1,4 @@
-h1 {
-  color: red !important;
-}
-
-svg {
-  width: 20px;
-  height: 20px;
-  use {
-    fill: black !important;
-  }
-}
+@import "../../../node_modules/normalize.css/normalize.css";
+@import "_grid.css";
+@import "_typography.css";
+@import "_header.css";
