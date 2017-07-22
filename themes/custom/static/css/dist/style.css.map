@@ -1,1 +1,1 @@
-{"version":3,"sources":["style.css"],"names":[],"mappings":"AAAA,GAAI,SAAW,CAAC","file":"style.css","sourcesContent":["h1{ color: red;}\n"]}
+{"version":3,"sources":["style.css"],"names":[],"mappings":"AAAA,GACE,mBAAsB,CACvB,AAED,IACE,WAAY,AACZ,WAAa,CAId,AAHC,QACE,mBAAuB,CACxB","file":"style.css","sourcesContent":["h1 {\n  color: red !important;\n}\n\nsvg {\n  width: 20px;\n  height: 20px;\n  use {\n    fill: black !important;\n  }\n}\n"]}
