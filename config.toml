@@ -1,7 +1,7 @@
 
-baseURL = "http://example.org/"
+baseURL = "/"
 languageCode = "en-us"
-title = "Shekhar Gulati Book Reviews"
+title = "David Saunders Portfolio"
 
 [Params]
-  Author = "Shekhar Gulati"
+  Author = "David Saunders"
