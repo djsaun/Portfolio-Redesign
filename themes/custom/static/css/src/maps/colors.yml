@@ -1,5 +1,7 @@
 black:
   base: '#000000'
+blue:
+  base: '#5D747D'
 green:
   base: '#436846'
   forest: '#4E5136'

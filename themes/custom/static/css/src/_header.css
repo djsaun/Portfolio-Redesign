@@ -1,10 +1,36 @@
+header {
+  background: rgba(map(colors, tan, base), .2);
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .logo {
+    display: flex;
+    align-content: center;
+  }
+}
+
 nav {
   ul {
     padding: 0;
 
     li {
+      margin: 0 15px;
       display: inline-block;
       list-style-type: none;
+
+      a {
+        font-weight: 700;
+        color: map(colors, blue, base);
+
+        &::after {
+          background: map(colors, blue, base);
+        }
+      }
     }
   }
 }
