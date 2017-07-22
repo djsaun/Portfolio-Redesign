@@ -1,0 +1,7 @@
+
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Shekhar Gulati Book Reviews"
+
+[Params]
+  Author = "Shekhar Gulati"
